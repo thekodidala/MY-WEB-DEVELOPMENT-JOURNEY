@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking your time to improve us.</p>
+    
+      <form id="survey-form">
+        <fieldset>
+      <label for="name" id="name-label">Enter your name:<input id="name" type="text" required placeholder="name should be in text"> </label><br>
+      <label for="email" id="email-label">Enter your email:<input id="email" type="email" required placeholder="email should contain @"> </label><br>
+      <label for="number" id="number-label">Enter your age:<input id="number" type="number" required placeholder="Age should be between 18&100" min="18" max="100"> </label>
+      </fieldset>
+      <fieldset>
+        <label>How did you know about us ?<select id="dropdown"><option value="">(select one)</option>
+        <option value="1">Friends</option>
+        <option value="2">Social Media</option>
+        <option value="3">Others</option>
+        </select>
+        </label><br>
+
+        <label for="Personal"><input name="Account-type" id="personal" value="1" type="radio" >Personal Account</label><br>
+        <label for="Business"><input name="Account-type" id="Business" value="2" type="radio" >Business Account</label><br>
+        <label for="Other"><input name="Account-type" id="other" value="3" type="radio" >Other</label>
+        </fieldset>
+        <fieldset>
+          <label>Hobbies<br><input value="1" type="Checkbox" value="1">Sports</label>
+          <label><input value="2" type="Checkbox">Reading</label><br>
+          </fieldset>
+          <fieldset>
+          <label for="bio">Any suggestions<textarea type="text" id="bio" roes=5 cols=0 placeholder="I like to code"></textarea></label>
+          </fieldset>
+          <input type="submit" id="submit">
+
+
+
+
+
+
